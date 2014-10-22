@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<title>ArtApp</title>
+	    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	    <%= csrf_meta_tags %>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,600' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="container">
+			<div class="top clearfix">
+				<span><%= link_to 'Git Hub for This Project', "http://github.com", class: 'icon icon-prev' %></span>
+			</div>
+			<div id="boxgallery" class="boxgallery" data-effect="effect-2">
+				<% @arts.each do |art| %>
+				    <div class="panel"><%= image_tag(art.pic_url) %></div>
+				<% end %>
+		    </div>
+			<header class="header">
+				<h1>Will Schjang's Art</h1>
+				<nav class="demos">
+					<%= link_to 'Purchase', "http://www.designbyhumans.com/shop/FutureEmperor/" %>
+				</nav>
+			</header>
+		</div><!-- /container -->
+		<script src="js/classie.js"></script>
+		<script src="js/boxesFx.js"></script>
+		<script>
+			new BoxesFx( document.getElementById( 'boxgallery' ) );
+		</script>
+	</body>
+</html>
