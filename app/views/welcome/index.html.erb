@@ -3,7 +3,11 @@
 	<head>
 		<title>ArtApp</title>
 	    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	    <%= stylesheet_link_tag "normalize" %>
+	    <%= stylesheet_link_tag "component" %>
+	    <%= stylesheet_link_tag "demo" %>
 	    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	    <%= javascript_include_tag 'modernizr.custom' %>
 	    <%= csrf_meta_tags %>
 		<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,600' rel='stylesheet' type='text/css'>
 	</head>
@@ -25,8 +29,8 @@
 			</header>
 		</div><!-- /container -->
 
-		<!-- <script src="js/classie.js"></script>
-		// <script src="js/boxesFx.js"></script> -->
+		<%= javascript_include_tag 'classie' %>
+		<%= javascript_include_tag 'boxesFx' %>
 		<script>
 			new BoxesFx( document.getElementById( 'boxgallery' ) );
 		</script>
