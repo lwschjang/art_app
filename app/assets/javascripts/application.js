@@ -14,3 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require 'boxesFx'
+//= require 'classie'
+//= require 'modernizr.custom'
