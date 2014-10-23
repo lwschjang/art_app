@@ -3,10 +3,15 @@
 This is just a small app built with the Rails framework and javascript to showcase some of my artwork.
 
 Technologies Used:
+
 Javascript
+
 Ruby
+
 Rails
+
 CSS3
+
 HTML
 
 It's viewable here: http://glacial-wave-7049.herokuapp.com/
