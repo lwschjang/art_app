@@ -1,3 +1,5 @@
+console.log('box loaded');
+
 ;( function( window ) {
 	
 	'use strict';

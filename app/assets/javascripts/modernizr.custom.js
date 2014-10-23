@@ -1,3 +1,4 @@
+console.log('mod loaded');
 /* Modernizr 2.8.2 (Custom Build) | MIT & BSD
  * Build: http://modernizr.com/download/#-csstransitions-touch-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load
  */
