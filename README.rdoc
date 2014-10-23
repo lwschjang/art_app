@@ -1,28 +1,12 @@
-== README
+== Will's Art App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is just a small app built with the Rails framework and javascript to showcase some of my artwork.
 
-Things you may want to cover:
+Technologies Used:
+Javascript
+Ruby
+Rails
+CSS3
+HTML
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+It's viewable here: http://glacial-wave-7049.herokuapp.com/
